@@ -23,8 +23,7 @@ public class MaxSumSubArrayOfSizeK {
         for (int i = 0; i < arr.length; i++) {
             subSize += arr[i];
             if (i >= slice - 1) {
-                if (subSize > maxSize)
-                    maxSize = subSize;
+                maxSize = Math.max(maxSize, subSize);
                 subSize -= arr[start];
                 start++;
             }
