@@ -11,9 +11,9 @@ public class SmallestSubarrayWithGreaterSum {
     public static void main(String[] args) {
         int[] arr = new int[]{1, 3, 1, 0, -1, 4, 1, 8, 2};
         int slice = 9;
-        logger.info(SmallestSubarrayWithGreaterSum.findMinSubArray(slice, arr));
+        logger.error(SmallestSubarrayWithGreaterSum.findMinSubArray(slice, arr));
 
-        logger.info(SmallestSubarrayWithGreaterSum.findMinSubArray2(slice, arr));
+        logger.error(SmallestSubarrayWithGreaterSum.findMinSubArray2(slice, arr));
     }
 
     public static int findMinSubArray(int s, int[] arr) {
