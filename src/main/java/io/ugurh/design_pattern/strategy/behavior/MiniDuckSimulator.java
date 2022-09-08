@@ -1,6 +1,4 @@
-package io.ugurh.sliding_window.design_pattern.oop.simpduck;
-
-import io.ugurh.sliding_window.design_pattern.oop.simpduck.fly.FlyWithWings;
+package io.ugurh.design_pattern.strategy.behavior;
 
 public class MiniDuckSimulator {
 

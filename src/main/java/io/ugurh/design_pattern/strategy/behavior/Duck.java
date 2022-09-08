@@ -1,6 +1,6 @@
-package io.ugurh.sliding_window.design_pattern.oop.simpduck;
+package io.ugurh.design_pattern.strategy.behavior;
 
-import io.ugurh.sliding_window.design_pattern.oop.simpduck.fly.FlyBehavior;
+import io.ugurh.design_pattern.strategy.behavior.FlyBehavior;
 
 public abstract class Duck {
 

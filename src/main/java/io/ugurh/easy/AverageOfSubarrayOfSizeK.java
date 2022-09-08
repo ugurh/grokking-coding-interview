@@ -1,4 +1,4 @@
-package io.ugurh.sliding_window.easy;
+package io.ugurh.easy;
 
 import java.util.Arrays;
 

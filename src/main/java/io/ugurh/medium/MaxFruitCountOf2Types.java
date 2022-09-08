@@ -1,4 +1,4 @@
-package io.ugurh.sliding_window.medium;
+package io.ugurh.medium;
 
 import java.util.HashMap;
 
